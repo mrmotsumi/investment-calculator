@@ -36,7 +36,7 @@ class FinanceCalculator{
 
 
 		System.out.println();
-		System.out.println("Principal: "+Math.round(investment) + " *** " + " Interest: "+Math.round(calculateMonthlyInterestValue) + " *** "+ "Exepenses: "+expense + " *** "  + "Gross Income: "+ Math.round(calculateMonthlyGrossIncome) + " *** "+ " Net Income: "+ Math.round(calculateMonthlyNetIncome));
+		System.out.println( "Month: " + Initialperiod + " *** " + " Principal: "+Math.round(investment) + " *** " + " Interest: "+Math.round(calculateMonthlyInterestValue) + " *** "+ "Exepenses: "+expense + " *** "  + "Gross Income: "+ Math.round(calculateMonthlyGrossIncome) + " *** "+ " Net Income: "+ Math.round(calculateMonthlyNetIncome));
 		System.out.println();
 
 		 investment  = calculateMonthlyNetIncome; 
